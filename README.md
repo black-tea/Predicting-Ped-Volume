@@ -7,7 +7,7 @@ The Los Angeles Department of Transportation (LADOT) collects volume data relate
 * Target Variable: LADOT historically collects manual counts at intersections, which include vehicle, bicycle, bus, and pedestrian volumes. I was able to extract 1,600 pedestrian volume counts from these sheets.
 * Features: pop. (ACS), emp. (ACS), transit ridership (LA Metro), presence of a signal (LADOT), school count within ¼ mi (LAUSD) 
 
-![](images/allmap.png "Mapped Pedestrian Volumes")
+![](images/allmap_crop.png "Mapped Pedestrian Volumes")
 
 #### Model Construction
 * Two models: (1) OLS linear regression and (2) decision-tree
@@ -27,7 +27,7 @@ The Los Angeles Department of Transportation (LADOT) collects volume data relate
 * Final PDF Report: *pdf/PredictingPedestrianVolumes.pdf*
 * HTML Map of Test Results: *html/predmap.html*
 
-![](images/predmap.png "Test Results")
+![](images/predmap_crop.png "Test Results")
 
 ## Related Work
 * Project to extract data from PDFs
